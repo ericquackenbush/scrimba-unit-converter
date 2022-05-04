@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+}
+
+.container {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+
+.card {
+    height:  550px;
+    width:  550px;
+    background-color: #1F2937;
+    border-radius: 15px;
+    overflow:  hidden;
+}
+
+.header {
+    height:  260px;
+    background-image: linear-gradient(
+      35deg,
+      hsl(331deg 96% 60%) 0%,
+      hsl(291deg 59% 56%) 50%,
+      hsl(238deg 99% 67%) 100%
+    );
+}
+
+.header_text {
+    font-family:  'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:  22px;
+    line-height:  38px;
+    color:  #FFFFFF;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 13px;
+
+}
+
+.header_num {
+    font-family:  'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:  97.5723px;
+    color:  #FFFFFF;
+    text-align: center;
+}
+
+.unit_conversion {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit_conversion_group {
+    padding: 10px 0px;
+}
+
+.unit_conversion_header {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 0px;
+}
+
+.unit_conversion_value {
+    color: #D2D2D2;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 0px;
+}
+
+#header-value {
+    background-color: rgba(0,0,0,0.2);
+    font-family:  'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size:  97.5723px;
+    color:  #FFFFFF;
+    border-radius: 5px;
+    border-style: none;
+    caret-color: transparent;
+    text-align: center;
+    width: 300px;
+}
+
+#header-value:focus {
+    outline-color: white;;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
